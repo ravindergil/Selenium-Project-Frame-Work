@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter Test Suite">
+	<test name="Parameter Test 1">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="com.training.sanity.tests.LoginTests"/>
+			<class name="com.training.sanity.tests.ChangePasswordTest" />
+			<class name="com.training.sanity.tests.SearchProductTest" />
+			<class name="com.training.sanity.tests.AddProductTest" />
+		</classes>
+	</test>
+	<test name="Parameter Test 2">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.training.sanity.tests.LoginTests"/>
+			<class name="com.training.sanity.tests.ChangePasswordTest" />
+			<class name="com.training.sanity.tests.SearchProductTest" />
+			<class name="com.training.sanity.tests.AddProductTest" />
+		</classes>
+	</test>
+</suite>

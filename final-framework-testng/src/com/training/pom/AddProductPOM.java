@@ -17,7 +17,7 @@ private WebDriver driver;
 		this.driver = driver;
 		PageFactory.initElements(this.driver, this);
 	}
-	
+	//Demo
 		
 	@FindBy(xpath="//span[@class='tb_text' and text()='Information']")
 	private WebElement ln_Information;
