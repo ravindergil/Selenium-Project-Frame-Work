@@ -56,8 +56,6 @@ public class AddProductTest {
 		AddProd.fn_ClickIntegerVitale();
 		AddProd.fn_ClickAddtoCart();
 		AddProd.fn_MovetoCart();
-		AddProd.fn_ClickViewCart();
-		
+		AddProd.fn_ClickViewCart();	
 	}
-
 }
