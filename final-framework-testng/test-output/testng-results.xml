@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40777" started-at="2019-09-07T06:09:44Z" finished-at="2019-09-07T06:10:24Z">
+  <suite name="Suite" duration-ms="64846" started-at="2019-09-12T11:49:27Z" finished-at="2019-09-12T11:50:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40777" started-at="2019-09-07T06:09:44Z" finished-at="2019-09-07T06:10:24Z">
-      <class name="com.training.sanity.tests.AddProductTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddProductTest@39c0f4a]" name="setUpBeforeClass" is-config="true" duration-ms="16635" started-at="2019-09-07T06:09:44Z" finished-at="2019-09-07T06:10:00Z">
+    <test name="Test" duration-ms="64846" started-at="2019-09-12T11:49:27Z" finished-at="2019-09-12T11:50:32Z">
+      <class name="com.training.sanity.tests.pack2.EditMetaTagTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.pack2.EditMetaTagTest@13deb50e]" name="setUpBeforeClass" is-config="true" duration-ms="7426" started-at="2019-09-12T11:50:11Z" finished-at="2019-09-12T11:50:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="AddProduct()[pri:0, instance:com.training.sanity.tests.AddProductTest@39c0f4a]" name="AddProduct" duration-ms="22232" started-at="2019-09-07T06:10:00Z" finished-at="2019-09-07T06:10:23Z">
+        <test-method status="PASS" signature="EditMetaData()[pri:0, instance:com.training.sanity.tests.pack2.EditMetaTagTest@13deb50e]" name="EditMetaData" duration-ms="11595" started-at="2019-09-12T11:50:18Z" finished-at="2019-09-12T11:50:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddProductTest@39c0f4a]" name="tearDown" is-config="true" duration-ms="1865" started-at="2019-09-07T06:10:23Z" finished-at="2019-09-07T06:10:24Z">
+        </test-method> <!-- EditMetaData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.pack2.EditMetaTagTest@13deb50e]" name="tearDown" is-config="true" duration-ms="1812" started-at="2019-09-12T11:50:30Z" finished-at="2019-09-12T11:50:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.AddProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.training.sanity.tests.pack2.EditMetaTagTest -->
+      <class name="com.training.sanity.tests.pack2.AddCategoryTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.pack2.AddCategoryTest@f6c48ac]" name="setUpBeforeClass" is-config="true" duration-ms="7957" started-at="2019-09-12T11:49:42Z" finished-at="2019-09-12T11:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="AdminCategoryTest()[pri:0, instance:com.training.sanity.tests.pack2.AddCategoryTest@f6c48ac]" name="AdminCategoryTest" duration-ms="18952" started-at="2019-09-12T11:49:50Z" finished-at="2019-09-12T11:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminCategoryTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.pack2.AddCategoryTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="1792" started-at="2019-09-12T11:50:09Z" finished-at="2019-09-12T11:50:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.pack2.AddCategoryTest -->
+      <class name="com.training.sanity.tests.pack2.AdminLogInTest">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.pack2.AdminLogInTest@464bee09]" name="setUpBeforeClass" is-config="true" duration-ms="12618" started-at="2019-09-12T11:49:27Z" finished-at="2019-09-12T11:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.training.sanity.tests.pack2.AdminLogInTest@464bee09]" name="AdminLoginTest" duration-ms="938" started-at="2019-09-12T11:49:39Z" finished-at="2019-09-12T11:49:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.pack2.AdminLogInTest@464bee09]" name="tearDown" is-config="true" duration-ms="1744" started-at="2019-09-12T11:49:40Z" finished-at="2019-09-12T11:49:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.pack2.AdminLogInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

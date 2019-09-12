@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.AddProductTest">
+      <class name="com.training.sanity.tests.pack2.AddCategoryTest">
         <methods>
           <include name="tearDown"/>
+          <include name="AdminCategoryTest"/>
           <include name="setUpBeforeClass"/>
-          <include name="AddProduct"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.AddProductTest -->
+      </class> <!-- com.training.sanity.tests.pack2.AddCategoryTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
