@@ -12,8 +12,6 @@ public class ChangePasswordTest extends LoginTests{
 	
 	@Test(dependsOnMethods="validLoginTest")
 	public void validateChangePassword(){
-		System.out.println("I am child method");
-		driver.navigate().refresh();
 		ChangePass = new ChangePasswordPOM(driver);
 		ChangePass.fn_clickChangePassword();
 		ChangePass.fn_enterPassword("mehandi");
